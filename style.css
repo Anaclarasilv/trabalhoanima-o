@@ -1,0 +1,25 @@
+h1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: colorChange 8s ease infinite;
+}
+
+        @keyframes colorChange {
+     100% {
+        background-color: rgb(0, 0, 255);
+        transform: translateX(0);
+    }
+    25% {
+        background-color: rgb(255, 0, 0);
+        transform: translateX(1800px);
+    }
+    50% {
+        background-color: rgb(0, 146, 0);
+        transform: translateX(1800px) translateY(825px);
+    }
+    75% {
+        background-color: rgb(255, 255, 0);
+        transform: translateY(825px) translateZ(1800px)
+    }
+        }
